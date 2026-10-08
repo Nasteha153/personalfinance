@@ -13,8 +13,8 @@ const options = {
       {
         url:
           process.env.NODE_ENV === "production"
-            ? process.env.MONGO_URI_PROD
-            : "http://localhost:5000",
+            ? "https://personalfinance-361j.onrender.com"
+            : "http://localhost:5000"
       },
     ],
 
